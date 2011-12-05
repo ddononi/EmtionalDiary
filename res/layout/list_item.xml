@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="110px" android:layout_gravity="center"
+    android:background="@color/white" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="110px"
+    android:layout_height="fill_parent" android:layout_gravity="center"
+    android:background="@color/white" >
+    <TextView android:text="13:59" 
+    		  android:layout_height="30px" 
+    		  android:layout_width="fill_parent" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/list_time"
+    		  android:textColor="@color/dateColor" android:gravity="center|bottom"
+    		  android:textSize="14dp">
+   	</TextView>
+
+	<TextView
+	    android:id="@+id/list_day"
+	    android:layout_width="fill_parent"
+	    android:layout_height="40px"
+	    android:gravity="center"
+	    android:text="28"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@color/dateColor"
+	    android:textSize="24dp" >
+
+	</TextView>
+	<TextView android:text="11" 
+	    		  android:layout_height="40px" 
+	    		  android:layout_width="fill_parent" 
+	    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+	    		  android:id="@+id/list_year"
+	    		  android:textColor="@color/dateColor" android:textSize="20dp" android:gravity="center">
+   	</TextView>
+
+
+	</LinearLayout>
+
+	<ImageView android:layout_width="90px" 
+				android:background="@drawable/smile1" 
+				android:id="@+id/list_emotionIcon" 
+				android:layout_height="90px" 
+				android:layout_gravity="center_horizontal|clip_horizontal" android:layout_marginTop="5px">
+	</ImageView>
+	
+	<TextView android:text="hinicetomeetyouZZZZZZasdfasdfasdfsadf" 
+	    		  android:layout_height="100px" 
+	    		  android:layout_width="fill_parent" 
+	    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+	    		  android:id="@+id/list_contents"
+	    		  android:textColor="@color/black" android:textSize="16dp" android:layout_margin="5px">
+   	</TextView>
+   	
+</LinearLayout>

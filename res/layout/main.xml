@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:layout_gravity="center"
+    android:background="@color/white" >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="130px"
+    >
+    <TextView android:text="21" 
+    		  android:layout_height="130px" 
+    		  android:layout_width="130px" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/daytext"
+    		  android:textColor="@color/dateColor"
+    		  android:textSize="60dp"
+    		   android:layout_gravity="center" android:gravity="center">
+    </TextView>
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+	    android:orientation="vertical"
+	    android:layout_width="180px"
+	    android:layout_height="130px"
+	    >
+	<TextView android:text="11 2011" 
+    		  android:layout_height="65px" 
+    		  android:layout_width="130px" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/monthyeartext"
+    		  android:textColor="@color/dateColor" android:gravity="center|bottom">
+   	</TextView>
+   		
+	<TextView android:text="20:07" 
+    		  android:layout_height="65px" 
+    		  android:layout_width="130px" 
+    		  android:textAppearance="?android:attr/textAppearanceLarge" 
+    		  android:id="@+id/timetext"
+    		  android:textColor="@color/dateColor" android:gravity="center|top">
+    	</TextView>
+    
+	    </LinearLayout>
+	    
+	<ImageButton android:layout_width="130px" 
+				android:background="@drawable/smile1" 
+				android:id="@+id/EmotionIconBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+</LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="300px" android:layout_gravity="center|center_horizontal" android:gravity="center">
+    <EditText
+	android:id="@+id/textEdit"
+	android:layout_width="450px"
+	android:layout_height="300px"	
+android:background="@drawable/textline" android:gravity="center|left|top"/>
+</LinearLayout>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="160px" android:layout_gravity="center|center_horizontal" android:gravity="center">
+
+<ImageButton android:layout_width="130px" 
+				android:background="@drawable/facebookicon" 
+				android:id="@+id/facebookBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+	
+	<ImageButton android:layout_width="130px" 
+				android:background="@drawable/twittericon" 
+				android:id="@+id/TwitterBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+	<ImageButton android:layout_width="130px" 
+				android:background="@drawable/googlegallery" 
+				android:id="@+id/GalleryBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="300px" android:layout_gravity="center|center_horizontal" android:gravity="center">
+
+<ImageButton android:layout_width="130px" 
+				android:background="@drawable/diskicon" 
+				android:id="@+id/SaveBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+	
+	<ImageButton android:layout_width="130px" 
+				android:background="@drawable/homeicon" 
+				android:id="@+id/ListBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+	<ImageButton android:layout_width="130px" 
+				android:background="@drawable/recyclebinicon" 
+				android:id="@+id/DeleteBtn" 
+				android:layout_height="118px" 
+				android:layout_gravity="center_horizontal|clip_horizontal">
+	</ImageButton>
+</LinearLayout>
+</LinearLayout>

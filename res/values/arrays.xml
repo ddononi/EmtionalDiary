@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 이모티콘 이미지들 -->
+	<string-array name="emoticons">
+		<item>angry1.jpg</item>
+		<item>angry2.jpg</item>
+		<item>angry3.jpg</item>
+		<item>fear1.jpg</item>
+		<item>fear2.jpg</item>
+		<item>fear3.jpg</item>
+		<item>neutral1.jpg</item>
+		<item>neutral2.jpg</item>
+		<item>neutral3.jpg</item>
+		<item>sad1.png</item>
+		<item>sad2.jpg</item>
+		<item>sad3.jpg</item>
+		<item>smile1.jpg</item>
+		<item>smile2.jpg</item>
+		<item>smile3.jpg</item>
+		<item>surprise1.jpg</item>
+		<item>suprise2.jpg</item>
+		<item>surprise3.jpg</item>	
+		<item>imo_smile.png</item>					
+	</string-array>
+</resources>
